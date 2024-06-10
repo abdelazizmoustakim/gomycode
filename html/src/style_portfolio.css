@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #4CAF50, #008CBA);
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+section {
+  padding: 20px;
+}
+
+section#about {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#about h1 {
+  color: #333;
+}
+
+section#about h2 {
+  color: #374b53;
+}
+
+section#about p {
+  color: #777;
+}
+
+section#about img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+section#projects {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#projects h2 {
+  color: #333;
+}
+
+section#projects p {
+  color: #777;
+}
+
+section#projects a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+section#projects a:hover {
+  color: #0056b3;
+}
+
+section#contact {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#contact h2 {
+  color: #333;
+}
+
+section#contact label {
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+section#contact input[type="text"],
+section#contact input[type="email"],
+section#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+section#contact input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+section#contact input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #4CAF50;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} 
+section#certifications {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
